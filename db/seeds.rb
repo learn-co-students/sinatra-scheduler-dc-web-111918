@@ -1,59 +1,56 @@
-courses = [
-  {
-    name: 'Transfiguration',
+
+    Course.create(name: 'Transfiguration',
     professor: 'McGonagall',
-    credits: 3
-  }, {
-    name: 'Charms',
+    credits: 3)
+
+    Course.create(name: 'Charms',
     professor: 'Flitwick',
-    credits: 2
-  }, {
-    name: 'Potions',
+    credits: 2)
+
+    Course.create(name: 'Potions',
     professor: 'Snape',
-    credits: 4
-  }, {
-    name: 'History of Magic',
+    credits: 4)
+
+    Course.create(name: 'History of Magic',
     professor: 'Binns',
-    credits: 2
-  }, {
-    name: 'Defence Against the Dark Arts',
+    credits: 2)
+
+    Course.create(name: 'Defence Against the Dark Arts',
     professor: 'Lupin',
-    credits: 4
-  }, {
-    name: 'Astronomy',
+    credits: 4)
+
+    Course.create(name: 'Astronomy',
     professor: 'Sinistra',
-    credits: 2
-  }, {
-    name: 'Herbology',
+    credits: 2)
+
+    Course.create(name: 'Herbology',
     professor: 'Sprout',
-    credits: 2
-  }, {
-    name: 'Flying',
+    credits: 2)
+
+    Course.create(name: 'Flying',
     professor: 'Hooch',
-    credits: 1
-  }, {
-    name: 'Arithmancy',
+    credits: 1)
+
+    Course.create(name: 'Arithmancy',
     professor: 'Vector',
-    credits: 4
-  }, {
-    name: 'Muggle Studies',
+    credits: 4)
+
+    Course.create(name: 'Muggle Studies',
     professor: 'Burbage',
-    credits: 2
-  }, {
-    name: 'Divination',
+    credits: 2)
+
+    Course.create(name: 'Divination',
     professor: 'Trelawney',
-    credits: 2
-  }, {
-    name: 'Study of Ancient Runes',
+    credits: 2)
+
+    Course.create(name: 'Study of Ancient Runes',
     professor: 'Babbling',
-    credits: 3
-  }, {
-    name: 'Care of Magical Creatures',
+    credits: 3)
+
+    Course.create(name: 'Care of Magical Creatures',
     professor: 'Hagrid',
-    credits: 2
-  }, {
-    name: 'Frog Choir',
+    credits: 2)
+
+    Course.create(name: 'Frog Choir',
     professor: 'Flitwick',
-    credits: 1
-  }
-]
+    credits: 1)

@@ -1,20 +1,32 @@
 body {
   font-family: 'Allura', cursive;
+  text-align: center;
 }
 
 h1 {
   text-align: center;
 }
 
+.courses {
+  display: table;
+  margin: 0 auto;
+}
+
 ul {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  text-align: center;
+}
+
+#navbar {
+  justify-content: center;
 }
 
 li {
-  width: 150px;
+  width: 200px;
   display: flex;
+  text-align: center;
 }
 
 li a {
